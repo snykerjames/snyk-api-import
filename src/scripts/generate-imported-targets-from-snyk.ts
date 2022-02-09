@@ -74,7 +74,6 @@ const targetGenerators = {
   [SupportedIntegrationTypesToListSnykTargets.GITHUB]: projectToTarget,
   [SupportedIntegrationTypesToListSnykTargets.GITLAB]: gitlabProjectToImportLogTarget,
   [SupportedIntegrationTypesToListSnykTargets.GHE]: projectToTarget,
-  [SupportedIntegrationTypesToListSnykTargets.BITBUCKET_CLOUD]: projectToTarget,
   [SupportedIntegrationTypesToListSnykTargets.GCR]: imageProjectToTarget,
   [SupportedIntegrationTypesToListSnykTargets.DOCKER_HUB]: imageProjectToTarget,
   [SupportedIntegrationTypesToListSnykTargets.AZURE_REPOS]: projectToTarget,
